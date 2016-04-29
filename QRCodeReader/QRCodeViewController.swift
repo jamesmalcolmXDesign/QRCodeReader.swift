@@ -281,7 +281,7 @@ public class QRCodeReaderViewController: UIViewController {
     
   /// MARK: Public
     
-    func qrCameraView() -> UIView {
+   public func qrCameraView() -> UIView {
         
         return self.cameraView
     }
